@@ -96,7 +96,7 @@
   }
   
   .banner-ring {
-    background-image: url('images/ringban.jpg');
+    background-image: url('ringban.jpg');
     background-size: cover;
     background-position: center;
     height: 140px;
@@ -106,7 +106,7 @@
   }
 
   .banner-earring {
-    background-image: url('images/earringsban.jpg');
+    background-image: url('earringsban.jpg');
     background-size: cover;
     background-position: center;
     height: 140px;
@@ -116,7 +116,7 @@
   }
   
   .banner-wishlist {
-    background-image: url('images/wishban.jpg');
+    background-image: url('wishban.jpg');
     background-size: cover;
     background-position: center;
     height: 140px;
@@ -127,7 +127,7 @@
   
   
   .banner-login {
-    background-image: url('images/loginban.jpg');
+    background-image: url('loginban.jpg');
     background-size: cover;
     background-position: center;
     height: 140px;
@@ -139,7 +139,7 @@
 
   /* Banner Section */
   .banner {
-    background-image: url('images/banner.jpg');
+    background-image: url('banner.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
