@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Inaya Jewelry</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Inaya Logo">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search 'Jhumki'" id="search">
+        <button type="button">Search</button>
+      </div>
+      <div class="user-options">
+        <a href="#"><img src="images/account.jpg" alt="Account"></a>
+        <a id="wishlist-link" href="wishlist.html"><img src="images/wishlist.jpg" alt="Wishlist"></a>
+        <a href="#"><img src="images/cart.jpg" alt="Cart"></a>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Men's Jewelry</a></li>
+        <li><a href="#">Women's Jewelry</a></li>
+        <li><a href="#">Occasion Wear</a></li>
+        <li><a href="#">Wedding</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Checkout Section -->
+  <section class="checkout">
+    <div class="checkout-container">
+      <!-- Left Side: Contact & Delivery Details -->
+      <div class="checkout-left">
+        <!-- Contact Section -->
+        <div class="contact-section">
+          <h2>Contact</h2>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" class="input-field">
+        </div>
+
+        <!-- Delivery Section -->
+        <div class="delivery-section">
+          <h2>Delivery</h2>
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country" placeholder="Enter your country" class="input-field">
+          
+          <div class="name-fields">
+            <div class="input-wrapper">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="First Name" class="input-field">
+            </div>
+            <div class="input-wrapper">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Last Name" class="input-field">
+            </div>
+          </div>
+
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Enter your address" class="input-field">
+
+          <div class="city-fields">
+            <div class="input-wrapper">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="City" class="input-field">
+            </div>
+            <div class="input-wrapper">
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" placeholder="State" class="input-field">
+            </div>
+            <div class="input-wrapper">
+              <label for="pin-code">Pin Code</label>
+              <input type="text" id="pin-code" name="pin-code" placeholder="Pin Code" class="input-field">
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Method Section -->
+        <div class="payment-method-section">
+          <h2>Payment Method</h2>
+          <div class="payment-options">
+            <img src="images/upi.jpg" alt="UPI">
+            <img src="images/visa.jpg" alt="Visa">
+            <img src="images/mastercard.jpg" alt="Mastercard">
+            <span>+17</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Order Summary -->
+      <div class="checkout-right">
+        <h3>DAINTY BUTTERFLY STUDS <span>₹1,300</span></h3>
+        <div class="order-summary">
+          <img src="images/ear/e2.jpg" alt="Product Image" class="product-image">
+          <p>Subtotal: ₹1,300.00</p>
+          <p>Shipping: Enter shipping address</p>
+          <hr>
+          <p><strong>Total:</strong> ₹1,300.00</p>
+          <p class="tax-info">Including ₹120.65 in taxes</p>
+        </div>
+        <button class="btn-pay">PAY NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

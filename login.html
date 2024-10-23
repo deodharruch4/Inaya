@@ -1,0 +1,81 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inaya - Online Jewelry Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Inaya Logo">
+        </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search 'Rings'" id="search">
+        <button type="button">Search</button>
+      </div>
+      <div class="user-options">
+        <a href="#"><img src="images/account.jpg" alt="Account"></a>
+        <a id="wishlist-link" href="wishlist.html"><img src="images/wishlist.jpg" alt="Wishlist"></a>
+        <a href="#"><img src="images/cart.jpg" alt="Cart"></a>
+      </div>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="#">  </a></li>
+          <li><a href="#">Men's Jewelry</a></li>
+          <li><a href="#">Women's Jewelry</a></li>
+          <li><a href="#">Occasion Wear</a></li>
+          <li><a href="#">Wedding</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section class="banner-login">
+    <div class="banner-login-content">
+    </div>
+  </section>
+
+    <!-- Login Form Section -->
+    <section class="login">
+        <div class="container">
+            <p>Don't Have An Account? <a href="#">Create New Account</a>.</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <button id="sign-in-btn" type="submit" class="btn">Sign In</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>FOLLOW US ON:</p>
+            <div class="social-icons">
+                <img src="images/socials.jpg" alt="Social Media Icons" class="social-media-image">
+            </div>
+        </div>
+    <p>&copy; 2024 Inaya Jewelry. All rights reserved.</p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
