@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const logoLink = document.getElementById("logo-link");
     if (logoLink) {
       logoLink.addEventListener("click", function() {
-        window.location.href = "home.html"; // Navigate to home page
+        window.location.href = "index.html"; // Navigate to home page
       });
     }
     
