@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
      // Navigation from any page to home page
-    const wishlistLink = document.getElementById("wishlist-link");
-    if (wishlistLink) {
-      wishlistLink.addEventListener("click", function() {
-        window.location.href = "earrings.html"; // Navigate to home page
+    const earringsLink = document.getElementById("earrings-link");
+    if (earringsLink) {
+      earringsLink.addEventListener("click", function() {
+        window.location.href = "wishlist.html"; // Navigate to home page
       });
     }
 
