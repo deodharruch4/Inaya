@@ -15,6 +15,14 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
   */
+    // Navigation from any page to home page
+    const logoLink = document.getElementById("logo-link");
+    if (logoLink) {
+      logoLink.addEventListener("click", function() {
+        window.location.href = "home.html"; // Navigate to home page
+      });
+    }
+    
     // Navigation from any page to wishlist page
     const wishlistLink = document.getElementById("wishlist-link");
     if (wishlistLink) {
