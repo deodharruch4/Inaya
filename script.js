@@ -31,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
 
+     // Navigation from any page to home page
+    const wishlistLink = document.getElementById("wishlist-link");
+    if (wishlistLink) {
+      wishlistLink.addEventListener("click", function() {
+        window.location.href = "earrings.html"; // Navigate to home page
+      });
+    }
+
     // Navigation from any page to login page
     const loginLink = document.getElementById("login-link");
     if (loginLink) {
