@@ -22,6 +22,14 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "wishlist.html"; // Navigate to wishlist page
       });
     }
+
+    // Navigation from any page to login page
+    const loginLink = document.getElementById("login-link");
+    if (loginLink) {
+      loginLink.addEventListener("click", function() {
+        window.location.href = "login.html"; // Navigate to login page
+      });
+    }
   
     // Navigation from product page to login page after clicking Buy Now
     const buyNowBtn = document.getElementById("buy-now-btn");
