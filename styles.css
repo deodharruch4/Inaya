@@ -114,6 +114,16 @@
     justify-content: center;
     align-items: center;
   }
+
+    .banner-bracelet {
+    background-image: url('braceletsban.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .banner-wishlist {
     background-image: url('wishban.jpg');
