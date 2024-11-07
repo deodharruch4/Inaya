@@ -31,13 +31,13 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
 
-     // earrings
+     /*/ earrings
     const earringsLink = document.getElementById("earrings-link");
     if (earringsLink) {
       earringsLink.addEventListener("click", function() {
         window.location.href = "wishlist.html";
       });
-    }
+    }*/
 
     // Navigation from any page to login page
     const loginLink = document.getElementById("login-link");
