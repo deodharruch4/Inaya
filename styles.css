@@ -233,10 +233,8 @@
   }
   
   .wishlist-icon img {
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    height: 24px;
+    cursor: pointer;
   }
   
   body {
