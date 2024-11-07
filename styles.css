@@ -1042,3 +1042,7 @@
   .input-wrapper {
     width: 100%;
   }
+#wishlist-link img {
+    width: 24px; /* Adjust to desired size */
+    height: 24px;
+}
