@@ -465,10 +465,10 @@
     color: #333;
   }
   
-  .wishlist-icon img {
-    height: 25px;
+ /* .wishlist-icon img {
+    height: 24px;
     cursor: pointer;
-  }
+  } */
 
   .container {
     max-width: 800px;
