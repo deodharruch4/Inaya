@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
 
-     // Navigation from any page to home page
+     // earrings
     const earringsLink = document.getElementById("earrings-link");
     if (earringsLink) {
       earringsLink.addEventListener("click", function() {
-        window.location.href = "wishlist.html"; // Navigate to home page
+        window.location.href = "wishlist.html";
       });
     }
 
