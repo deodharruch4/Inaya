@@ -43,6 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener("DOMContentLoaded", function() {
     const earringsLink = document.getElementById("earrings-link");
     const ringsLink = document.getElementById("rings-link");
+    const braceletsLink = document.getElementById("bracelets-link");
+    
   
     earringsLink.addEventListener("click", function(event) {
       console.log("Earrings link clicked");
@@ -51,5 +53,10 @@ document.addEventListener("DOMContentLoaded", function() {
     ringsLink.addEventListener("click", function(event) {
       console.log("Rings link clicked");
     });
+
+    braceletsLink.addEventListener("click", function(event) {
+      console.log("Bracelets link clicked");
+    });
+      
   });
   
