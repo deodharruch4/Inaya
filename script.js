@@ -30,6 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "login.html"; // Navigate to login page
       });
     }
+
+     // Navigation from any page to checkout page
+    const cartLink = document.getElementById("cart-link");
+    if (cartLink) {
+      cartLink.addEventListener("click", function() {
+        window.location.href = "checkout.html"; // Navigate to cart page
+      });
+    }
   
     // Navigation from product page to login page after clicking Buy Now
     const buyNowBtn = document.getElementById("buy-now-btn");
