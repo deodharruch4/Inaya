@@ -56,9 +56,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
      // Navigation from any page to checkout page
-    const cartLink = document.getElementById("cart-link");
-    if (cartLink) {
-      cartLink.addEventListener("click", function() {
+    const checkoutLink = document.getElementById("checkout-link");
+    if (checkoutLink) {
+      checkoutLink.addEventListener("click", function() {
         window.location.href = "checkout.html"; // Navigate to cart page
       });
     }
